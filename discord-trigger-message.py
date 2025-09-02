@@ -233,7 +233,6 @@ class DiscordMonitor:
             if self.has_responded:
                 return False
 
-            # First check username if configured
             if self.config["target_username"]:
                 username_area = self.config["username_area"]
                 username_screenshot = ImageGrab.grab(bbox=(
@@ -246,7 +245,6 @@ class DiscordMonitor:
                 if not self.check_username(username_screenshot):
                     return False
 
-            # Then check message content
             area = self.config["message_area"]
             screenshot = ImageGrab.grab(bbox=(
                 area["left"],
@@ -603,4 +601,5 @@ def main():
         input("\nPress Enter to exit...")
 
 if __name__ == "__main__":
+
     main()
