@@ -11,6 +11,7 @@ hosting or services.</p>
 <h2>How to use</h2>
 
 <ol>
+  <li>Download <a href="https://github.com/tesseract-ocr/tesseract" target="_blank" rel="noopener noreferrer">Tesseract</a>.</li>
   <li>Download the <code>discord-trigger-message.py</code> file.</li>
   <li>Open the file using Python.</li>
   <li>Open Discord and send your target message in any text channel.</li>
