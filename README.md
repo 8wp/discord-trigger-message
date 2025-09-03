@@ -8,6 +8,13 @@ the message instantly. All setup — including trigger text, response messages, 
 through the config, making it a straightforward, end-to-end solution for automated OCR-driven responses without external 
 hosting or services.</p>
 
+<h2>Install dependencies</h2>
+
+Run the following command to install all required packages:
+
+```sh
+pip install pytesseract pyautogui keyboard requests pillow pyfiglet tabulate
+```
 <h2>How to use</h2>
 
 <ol>
