@@ -1,3 +1,5 @@
+<p><sub>Created by 8wp</sub></p>
+
 <h2>How it works</h2>
 
 <p>This tool is a locally hosted Python script that uses on-device OCR (Optical Character Recognition) alongside the Discord gateway 
