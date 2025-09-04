@@ -8,6 +8,10 @@ the message instantly. All setup — including trigger text, response messages, 
 through the config, making it a straightforward, end-to-end solution for automated OCR-driven responses without external 
 hosting or services.</p>
 
+<h2>Demonstration</h2>
+
+W.I.P
+
 <h2>Install dependencies</h2>
 
 Run the following command to install all required packages:
